@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 
 import 'package:madicalapp_ui/Pages/first_page.dart';
 
+import 'SQFLite/homePage.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -18,7 +20,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: FirstPage(),
+      home: Home(),
     );
   }
 }
