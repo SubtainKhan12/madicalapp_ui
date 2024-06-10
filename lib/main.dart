@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:madicalapp_ui/Pages/first_page.dart';
+import 'package:madicalapp_ui/apiInSQF/complainListScreen.dart';
 
 import 'SQFLite/homePage.dart';
 
@@ -20,7 +21,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: ComplaintListScreen(),
     );
   }
 }
